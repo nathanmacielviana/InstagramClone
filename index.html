@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resp.css">
+</head>
+<body>
+    <!--menu principal-->
+    <nav class="menu-principal">
+        <div class="menu-links">
+            <h1 class="logo">Instagram Clone</h1>
+            <input type="text" class="busca-topo" name="ms" placeholder="Search">
+
+            <div class="menu-icones">
+                <img src="img/home.png" class="icon">
+                <img src="img/message.png" class="icon">
+                <img src="img/plus.png">
+                <img src="img/compass-regular-24.png" class="icon">
+                <img src="img/heart-regular-24.png" class="icon">
+                <button id="toggle-btn"><img src="img/IMG1.png" class="icon perfil-user" onclick="toggleMode()"></button>
+            </div>
+        </div>
+    </nav>
+
+    <!--main section-->
+    <section class="corpo-principal">
+        <div class="conteudo-geral">
+
+            <div class="col-esquerda">
+                <div class="status-destaque">
+                    
+                    <div class="item-destaque">
+                        <div class="miniatura-perfil">
+                            <img src="img/IMG1.png">
+                        </div>
+                        <p class="nome-usuario">Your Story</p>
+                    </div>
+
+                <div class="item-destaque">
+                    <div class="miniatura-perfil">
+                        <img src="img/IMG2.jpg">
+                    </div>
+                    <p class="nome-usuario">Mary</p>
+                </div>
+
+                <div class="item-destaque">
+                    <div class="miniatura-perfil">
+                        <img src="img/IMG3.jpg">
+                    </div>
+                    <p class="nome-usuario">John</p>
+                </div>
+
+                <div class="item-destaque">
+                    <div class="miniatura-perfil">
+                        <img src="img/IMG4.jpg">
+                    </div>
+                    <p class="nome-usuario">Angela</p>
+                </div>
+
+              </div>
+
+              <div class="postagem">
+                <div class="informacoes">
+                    <div class="usuario">
+                        <div class="miniatura-perfil"><img src="img/IMG1.png"></div>
+                        <p class="nome-usuario">Nathan</p>
+                    </div>
+                    <img src="img/menu-regular-24.png" class="opcoes">
+                </div>
+                
+                <img src="img/banner.jpg" class="capa-post" target="blank">
+                <div class="conteudo-postagem">
+                    <div class="reacoes">
+                        <img src="img/heart-regular-24.png" class="icon">
+                        <img src="img/message.png" class="icon">
+                        <img src="img/paper-plane-regular-24.png" class="icon">
+                        <img src="img/bookmark-regular-24.png" class="save">
+                    </div>
+                    <p class="curtidas">1.000 likes</p>
+                    <p class="descricao"><span>Nathan</span>Confira mais dos meus projetos no meu perfil do Github! 😉 <br>
+                    <span>#dev #frontend #instagramclone</span>
+                    </p>
+                    <p class="tempo-post">Now</p>
+                </div>
+
+                    <div class="comentario-postagem">
+                        <input type="text" class="comentario-msg" name="msg" placeholder="Comment on this post">
+                        <button class="comentario-btn" type="submit">Send</button>
+                    </div>
+              </div>
+            </div>
+
+            <div class="col-direita">
+                <div class="corpo-perfil">
+                    <div class="miniatura-perfil"><img src="img/IMG1.png"></div>
+
+                    <div>
+                        <p class="nome-usuario">Nathan Maciel</p>
+                        <p class="subtext">nathanmacielviana123456@gmail.com</p>
+                    </div>
+                </div>
+                <button class="mudar">Change</button>
+                <p class="sujestao">Suggestions for you</p>
+
+
+                <div class="corpo-perfil">
+                    <div class="miniatura-perfil"><img src="img/D1.jpg"></div>
+
+                    <div>
+                        <p class="nome-usuario">Sarah</p>
+                        <p class="subtext">@Sarah.business</p>
+                    </div>
+                </div>
+                <button class="mudar">Follow</button>
+
+                <div class="corpo-perfil">
+                    <div class="miniatura-perfil"><img src="img/D2.jpg"></div>
+
+                    <div>
+                        <p class="nome-usuario">Johnathan</p>
+                        <p class="subtext">@Johnathan_IT</p>
+                    </div>
+                </div>
+                <button class="mudar">Follow</button>
+
+                <div class="corpo-perfil">
+                    <div class="miniatura-perfil"><img src="img/D3.jpg"></div>
+
+                    <div>
+                        <p class="nome-usuario">Annete</p>
+                        <p class="subtext">@Anette.wells</p>
+                    </div>
+                </div>
+                <button class="mudar">Follow</button>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+    </section>
+    <script src="script/script.js"></script>
+</body>
+</html>

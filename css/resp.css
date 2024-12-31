@@ -1,0 +1,13 @@
+@media(max-width: 1100px)
+{
+    .col-direita, .busca-topo{display: none;}
+    .menu-links, .conteudo-geral{width: 90%;}
+    .conteudo-geral{display: block;}
+
+}
+
+@media(max-width: 500px)
+{
+    .menu-icones .icon{margin: 0 5px;}
+    .capa-post{width: 100%; height: auto;}
+}
